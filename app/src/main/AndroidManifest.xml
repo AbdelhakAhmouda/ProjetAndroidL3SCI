@@ -18,9 +18,6 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".SignUp"
-            android:label="@string/signup_name" ></activity>
-
         <activity android:name=".ModulesActivity"
             android:label="@string/modules_name" ></activity>
 

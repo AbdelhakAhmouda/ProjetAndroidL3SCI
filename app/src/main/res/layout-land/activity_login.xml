@@ -22,7 +22,7 @@
         android:id="@+id/imageView"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_gravity="left"
+        android:layout_gravity="start"
         android:layout_marginTop="50dp"
         android:contentDescription="@string/description"
         android:src="@drawable/unc2" />
@@ -47,7 +47,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
-            android:hint="Username" />
+            android:hint="@string/username" />
     </android.support.design.widget.TextInputLayout>
 
 
@@ -62,7 +62,7 @@
             android:id="@+id/editText2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="Password"
+            android:hint="@string/password"
             android:inputType="textPassword" />
     </android.support.design.widget.TextInputLayout>
 
@@ -75,16 +75,9 @@
         android:background="#60db65"
         android:onClick="signin"
         android:padding="12dp"
-        android:text="Login" />
+        android:text="@string/login" />
 
-    <TextView
-        android:id="@+id/signup"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="24dp"
-        android:gravity="center"
-        android:text="No account yet? Create one"
-        android:textSize="16sp" />
+
 
 
 </LinearLayout>
