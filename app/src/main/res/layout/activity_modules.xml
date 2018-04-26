@@ -1,19 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="8dp">
+    android:padding="4dp">
 
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/pane">
 
-    <TextView
-        android:id="@+id/welcome"
+    <GridView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:fontFamily="cursive"
-        android:textAppearance="@android:style/TextAppearance.Large" />
+        android:id="@+id/grid"
+        android:columnWidth="150dp"
+        android:paddingBottom="40dp"
+        android:numColumns="auto_fit"
+        android:verticalSpacing="3dp"
+        android:horizontalSpacing="3dp"
+        android:stretchMode="columnWidth"
+        android:gravity="center"
+       >
 
+    </GridView>
 
-</LinearLayout>
+</RelativeLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:src="@drawable/update"
+        app:backgroundTint="#ff4081"
+        app:layout_anchor="@id/pane"
+        app:layout_anchorGravity="bottom|right" />
+
+</android.support.design.widget.CoordinatorLayout>

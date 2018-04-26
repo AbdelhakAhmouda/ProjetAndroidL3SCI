@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">LearnApp</string>
     <string name="signup_name">Sign Up</string>
-    <string name="modules_name">Welcome</string>
+    <string name="modules_name">Modules</string>
 
 
     <string name="sing_in">Sing in</string>
@@ -9,6 +9,9 @@
     <string name="username">Username</string>
     <string name="description">logo</string>
     <string name="login">Login</string>
+    <string name="dam">DAM</string>
+    <string name="application_mobiles">Application mobiles</string>
+    <string name="_5">5</string>
 
 
 </resources>

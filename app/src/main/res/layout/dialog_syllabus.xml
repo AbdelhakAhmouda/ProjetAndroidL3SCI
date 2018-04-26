@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:id="@+id/name"
+        android:text="@string/application_mobiles"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:background="#0a990a"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crédit:"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/credit"
+        android:text="5"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description:"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/description"
+        android:text="Ce module est destiné essentiellement aux étudiants de Licence 3,en informatique. Son objectif est l'acquisition par tout étudiant, des connaissances et des compétences pour le développement des applications mobiles sous l'OS Android, ainsi que la maîtrise des outils nécessaires pour ce type de développement."
+        android:layout_marginBottom="12dp"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONTENU DU MODULE"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:background="#0a990a"
+        android:id="@+id/contenu"
+        android:layout_marginBottom="4dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

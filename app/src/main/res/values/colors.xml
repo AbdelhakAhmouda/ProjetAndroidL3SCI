@@ -2,8 +2,8 @@
 <resources>
     <item name="visible" type="id"/>
     <item name="masked" type="id"/>
-    <color name="colorPrimary">#19cd20</color>
-    <color name="colorPrimaryDark">#0c8411</color>
+    <color name="colorPrimary">#0a990a</color>
+    <color name="colorPrimaryDark">#056005</color>
     <color name="colorAccent">#c7153a</color>
-    <color name="holo_primary">#4caf50</color>
+    <color name="holo_primary">#48a145</color>
 </resources>

@@ -64,7 +64,7 @@ public class LoginActivity extends AppCompatActivity {
                        onLogin();
                         progressDialog.dismiss();
                     }
-                }, 3000);
+                }, 1000);//time!!!!!!!!!!!!!!!!!!!!
 
     }
 
@@ -85,10 +85,10 @@ public class LoginActivity extends AppCompatActivity {
 
                 Intent intent = new Intent(LoginActivity.this, ModulesActivity.class);
 
-                Bundle bundle = new Bundle();
-                bundle.putString("username",user);
-                bundle.putString("password",pass);
-                intent.putExtras(bundle);
+//                Bundle bundle = new Bundle();
+//                bundle.putString("username",user);
+//                bundle.putString("password",pass);
+//                intent.putExtras(bundle);
 
                 LoginActivity.this.startActivity(intent);
             }
